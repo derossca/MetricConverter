@@ -39,7 +39,7 @@ public class Main {
         System.out.println(meters + " meters is " + miles + " miles");
         feet = meters * 3.2808399;
         System.out.println(meters + " meters is " + feet + " feet");
-
-
+        inches = meters * 39.3700787;
+        System.out.println(meters + " meters is " + inches + " inches");
     }
 }
