@@ -33,5 +33,9 @@ public class Main {
             }
         }
         while(!done);
+
+        //computing the conversions of meters to the other measurement variables
+        miles = meters * 0.00062137;
+        System.out.println(meters + "meters is " + miles + " miles");
     }
 }
