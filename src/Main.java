@@ -21,7 +21,7 @@ public class Main {
             {
                 meters = in.nextDouble();
                 in.nextLine();
-                if(meters >= 0)
+                if(meters >= 0) //measurements need to be positive practically
                 {
                     done = true;
                 }
@@ -37,8 +37,10 @@ public class Main {
         //computing the conversions of meters to the other measurement variables
         miles = meters * 0.00062137;
         System.out.println(meters + " meters is " + miles + " miles");
+
         feet = meters * 3.2808399;
         System.out.println(meters + " meters is " + feet + " feet");
+
         inches = meters * 39.3700787;
         System.out.println(meters + " meters is " + inches + " inches");
     }
